@@ -3,9 +3,7 @@ let cursor = document.querySelector('.cursor');
 cursor.style.display = "none";
 
 document.addEventListener('mouseover', () => {
-
     cursor.style.display = "block";
-
     document.addEventListener('mousemove', function (e) {
         let cursorX = e.clientX;
         let cursorY = e.clientY;
